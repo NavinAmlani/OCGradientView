@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BE4D2E726724DC300DEB2F8 /* CustomGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE4D2E626724DC300DEB2F8 /* CustomGradientView.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 		169882CF3500D5D810051D37 /* Pods_OCGradientView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCGradientView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D6991BF16E267BFB0B2FA3 /* Pods-OCGradientView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCGradientView_Example.release.xcconfig"; path = "Target Support Files/Pods-OCGradientView_Example/Pods-OCGradientView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		29C7FD93ADB535528CD800BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4BE4D2E626724DC300DEB2F8 /* CustomGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomGradientView.swift; sourceTree = "<group>"; };
 		5670DA16B890F2AC6EA72C26 /* Pods-OCGradientView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCGradientView_Example.debug.xcconfig"; path = "Target Support Files/Pods-OCGradientView_Example/Pods-OCGradientView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* OCGradientView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCGradientView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -69,9 +71,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BE4D2E526724D9800DEB2F8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4BE4D2E626724DC300DEB2F8 /* CustomGradientView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				4BE4D2E526724D9800DEB2F8 /* Classes */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for OCGradientView */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -333,6 +344,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				4BE4D2E726724DC300DEB2F8 /* CustomGradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
