@@ -116,6 +116,14 @@
 			path = "Target Support Files/Pods-OCGradientView_Tests";
 			sourceTree = "<group>";
 		};
+		4BE4D2D82672463B00DEB2F8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4BE4D2A626723BC100DEB2F8 /* CustomGradientView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		4FCDECDE1E9A9DCB53726A5EC606152B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -197,7 +205,7 @@
 		D58F46012BE064B800F00C5147BF905A /* OCGradientView */ = {
 			isa = PBXGroup;
 			children = (
-				4BE4D2A626723BC100DEB2F8 /* CustomGradientView.swift */,
+				4BE4D2D82672463B00DEB2F8 /* Classes */,
 				A3650479E85DA44A2B3A2100FB11BA3B /* Pod */,
 				7363C689ED0F3461BDF8CA3D0677BCF0 /* Support Files */,
 			);
