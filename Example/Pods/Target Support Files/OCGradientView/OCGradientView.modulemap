@@ -1,0 +1,6 @@
+framework module OCGradientView {
+  umbrella header "OCGradientView-umbrella.h"
+
+  export *
+  module * { export * }
+}

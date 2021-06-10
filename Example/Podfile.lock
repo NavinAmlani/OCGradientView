@@ -1,0 +1,16 @@
+PODS:
+  - OCGradientView (0.1.0)
+
+DEPENDENCIES:
+  - OCGradientView (from `../`)
+
+EXTERNAL SOURCES:
+  OCGradientView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OCGradientView: 0b9a8d384a8498f769976a6c109e5cb60e2bad2c
+
+PODFILE CHECKSUM: 8e814786a055c3a8f86cda5dbffbd92c09fd8880
+
+COCOAPODS: 1.9.3

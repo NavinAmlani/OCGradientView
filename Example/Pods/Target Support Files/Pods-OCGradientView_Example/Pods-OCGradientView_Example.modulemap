@@ -1,0 +1,6 @@
+framework module Pods_OCGradientView_Example {
+  umbrella header "Pods-OCGradientView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
