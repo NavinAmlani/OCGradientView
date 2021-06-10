@@ -22,7 +22,7 @@ pod 'OCGradientView'
 
 ## Author
 
-NavinAmlani, navin@itoneclick.com
+NavinAmlani, navin0909@gmail.com
 
 ## License
 

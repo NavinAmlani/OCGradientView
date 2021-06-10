@@ -11,12 +11,12 @@
 		334E78FFA3B667FD09545576A5F203E8 /* OCGradientView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A6AF9DB94C145ED85B4D7C87CA927AE /* OCGradientView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4279528D2AEA062CB9397626DB0D26F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		4781B0D6E9B850929133B9B774BB7AC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4BE4D2A726723BC200DEB2F8 /* CustomGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE4D2A626723BC100DEB2F8 /* CustomGradientView.swift */; };
 		7161BB02BB8FDFCB50AEFF3F3730F568 /* OCGradientView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F1A89231F29811D02A9C2B37D6C57D /* OCGradientView-dummy.m */; };
 		A58A0827D0C07ED03B5E0B2D394C8B8C /* Pods-OCGradientView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E09C7F2B6CC90906A9EAA98298D676B /* Pods-OCGradientView_Tests-dummy.m */; };
 		BD7670671E2E1543B18E21E7C148DD11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		BF8E9976F18F4B8900113C9334E197F5 /* Pods-OCGradientView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34F76480485BD359F0EB559F6B4FE175 /* Pods-OCGradientView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EAF2F613DE6046F31B1770690B8D6F76 /* Pods-OCGradientView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6409D5E9D21752ADE7B0AC9D67B6023E /* Pods-OCGradientView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F63103A74DDCCE079FE49C95100E9782 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30120D47D3B1827BDD0BC24A39157111 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,17 +40,17 @@
 		01607BD1F28CF79291E204185297DC35 /* OCGradientView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OCGradientView.modulemap; sourceTree = "<group>"; };
 		055CF6971F9DE6D1D0462EC3CFAFC1B4 /* OCGradientView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCGradientView.release.xcconfig; sourceTree = "<group>"; };
 		09F0175A704574EFCAC0C323961D23F2 /* Pods-OCGradientView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OCGradientView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		16B60A092BA75A3ADF4726424FE5F1B6 /* Pods_OCGradientView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OCGradientView_Example.framework; path = "Pods-OCGradientView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16B60A092BA75A3ADF4726424FE5F1B6 /* Pods_OCGradientView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCGradientView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A6AF9DB94C145ED85B4D7C87CA927AE /* OCGradientView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCGradientView-umbrella.h"; sourceTree = "<group>"; };
 		1ED90D88387D4A91A805ABF77243B179 /* Pods-OCGradientView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCGradientView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		245973E1573671F82F0BB2AF1791E25F /* Pods-OCGradientView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCGradientView_Tests-Info.plist"; sourceTree = "<group>"; };
 		27BCB2A5F41F708282D0D0652B93C8C7 /* Pods-OCGradientView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCGradientView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		30120D47D3B1827BDD0BC24A39157111 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = OCGradientView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		303DDDCFF69DEFE324F5E91E7588F95F /* Pods-OCGradientView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCGradientView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		34F76480485BD359F0EB559F6B4FE175 /* Pods-OCGradientView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OCGradientView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		43985935A401D5C8FE74438B7C6B6053 /* OCGradientView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCGradientView-prefix.pch"; sourceTree = "<group>"; };
 		474AEF17BB5C4F5CE65286A7B7C1C498 /* Pods-OCGradientView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCGradientView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4BE4D2A626723BC100DEB2F8 /* CustomGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomGradientView.swift; sourceTree = "<group>"; };
 		4D2BBA351F33B579045567FE0449A1CD /* Pods-OCGradientView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCGradientView_Example-dummy.m"; sourceTree = "<group>"; };
 		52035D738DC3195A48FC6DD26371B75E /* Pods-OCGradientView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OCGradientView_Tests.modulemap"; sourceTree = "<group>"; };
 		53287CA78B2FEE9F60CDBD8D628C4033 /* Pods-OCGradientView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCGradientView_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -58,18 +58,18 @@
 		7537637774539C31BA2AF0D234050C6F /* OCGradientView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OCGradientView-Info.plist"; sourceTree = "<group>"; };
 		88F1A89231F29811D02A9C2B37D6C57D /* OCGradientView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCGradientView-dummy.m"; sourceTree = "<group>"; };
 		8E09C7F2B6CC90906A9EAA98298D676B /* Pods-OCGradientView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCGradientView_Tests-dummy.m"; sourceTree = "<group>"; };
-		917F016C49274C3E26345F4D800B0B31 /* Pods_OCGradientView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OCGradientView_Tests.framework; path = "Pods-OCGradientView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		917F016C49274C3E26345F4D800B0B31 /* Pods_OCGradientView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCGradientView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98DC87BB4838470C6A0558F256553AC9 /* Pods-OCGradientView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCGradientView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E062DC3ED99960C08E0AF295D643C5C /* Pods-OCGradientView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OCGradientView_Example.modulemap"; sourceTree = "<group>"; };
 		A11FF35485C0607793ED09B00189E2CB /* Pods-OCGradientView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCGradientView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A2BC605FC05BD6B9FA58E9B8CF08D29D /* OCGradientView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OCGradientView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A6C2E28CD69199655DBDA281E863429F /* OCGradientView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OCGradientView.framework; path = OCGradientView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2BC605FC05BD6B9FA58E9B8CF08D29D /* OCGradientView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = OCGradientView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6C2E28CD69199655DBDA281E863429F /* OCGradientView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OCGradientView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAEC335A3A9D64B8548F7CF1D6E8826D /* Pods-OCGradientView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCGradientView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B665CC7F6F2128BFDAC1D6CB3E0314DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B665CC7F6F2128BFDAC1D6CB3E0314DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D09B36854A95AEFCD7CFB4BF5012E2C8 /* OCGradientView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCGradientView.debug.xcconfig; sourceTree = "<group>"; };
 		E1CB7C5A20AB41D175B5568E68FC1211 /* Pods-OCGradientView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCGradientView_Example-Info.plist"; sourceTree = "<group>"; };
-		F5A57B0DB4A90EE8780F2FF2E75A13D9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F5A57B0DB4A90EE8780F2FF2E75A13D9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,7 +197,7 @@
 		D58F46012BE064B800F00C5147BF905A /* OCGradientView */ = {
 			isa = PBXGroup;
 			children = (
-				30120D47D3B1827BDD0BC24A39157111 /* ReplaceMe.swift */,
+				4BE4D2A626723BC100DEB2F8 /* CustomGradientView.swift */,
 				A3650479E85DA44A2B3A2100FB11BA3B /* Pod */,
 				7363C689ED0F3461BDF8CA3D0677BCF0 /* Support Files */,
 			);
@@ -384,7 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7161BB02BB8FDFCB50AEFF3F3730F568 /* OCGradientView-dummy.m in Sources */,
-				F63103A74DDCCE079FE49C95100E9782 /* ReplaceMe.swift in Sources */,
+				4BE4D2A726723BC200DEB2F8 /* CustomGradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,8 +622,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
